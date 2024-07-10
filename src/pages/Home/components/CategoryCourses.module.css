@@ -1,0 +1,20 @@
+.category_course {
+  color: #fff;
+  padding: 1rem 6rem;
+}
+
+.category_courses_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.no_courses_title {
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  padding: 2rem 0;
+}

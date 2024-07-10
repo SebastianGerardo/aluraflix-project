@@ -1,0 +1,13 @@
+.title_category {
+    text-transform: uppercase;
+    width: max-content;
+    color: #fff;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    line-height: 37.5px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1.3rem;
+    min-width: 432px;
+}
