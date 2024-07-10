@@ -8,3 +8,12 @@
     border-top: 4px solid #2271D1;
     margin-top: 2rem;
 }
+
+/* Mobile Responsive */
+
+@media (max-width: 570px) {
+    .logo_footer {
+      display: none;
+    }
+  }
+  

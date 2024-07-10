@@ -27,5 +27,21 @@
   font-size: 18px;
   font-weight: 300;
   line-height: 21.09px;
-  text-align: justify;
+  text-align: start;
+}
+
+/* Tablet  */
+
+@media (max-width: 768px) {
+  .title_banner {
+    font-size: 32px;
+    line-height: 37.5px;
+    padding: 1rem;
+    text-transform: capitalize;
+  }
+
+  .subtitle_banner {
+    font-size: 32px;
+    line-height: 37.5px;
+  }
 }

@@ -18,3 +18,17 @@
   text-align: center;
   padding: 2rem 0;
 }
+
+/* Tablet Responsive */
+
+@media (max-width: 768px) {
+  .category_course {
+    padding: 2.5rem;
+  }
+
+  .category_courses_section {
+    overflow-x: auto;
+    justify-content: start;
+  }
+    
+}

@@ -1,5 +1,5 @@
 import styles from "./Navbar.module.css";
-import { Link } from "./Link";
+import { ListNavigation } from "./ListNavigation.jsx";
 
 export const Navbar = () => {
   return (
@@ -7,14 +7,7 @@ export const Navbar = () => {
       <picture className={styles.header_logo}>
         <img src="./logo.png" alt="" />
       </picture>
-      <ul className={styles.header_elements}>
-        <li>
-          <Link to="/">HOME</Link>
-        </li>
-        <li>
-          <Link to="/new-video">NUEVO VIDEO</Link>
-        </li>
-      </ul>
+      <ListNavigation />
     </section>
   );
 };

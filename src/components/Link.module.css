@@ -1,6 +1,6 @@
 .button {
-  display: block;
   font-family: "Source Sans 3", sans-serif;
+  display: block;
   padding: 0.8rem;
   border-radius: 10px;
   border: 2px solid #fff;
@@ -17,7 +17,40 @@
 }
 
 .button_active {
-  border: 2px solid #2271D1;
+  border: 2px solid #2271d1;
   box-shadow: 0px 0px 12px 4px #2271d1 inset;
-  color: #2271D1;
+  color: #2271d1;
+}
+
+.element_icon {
+  display: none;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 570px) {
+  .button {
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .button_active {
+    background: #2271d13d;
+  }
+
+  .button_inactive {
+    border: none;
+  }
+
+  .button_content_inactive {
+    display: none;
+  }
+
+  .button_icon {
+    display: inline-block;
+    margin-top: 0.2rem;
+  }
 }

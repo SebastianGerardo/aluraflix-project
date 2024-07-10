@@ -4,7 +4,7 @@ import styles from "./Courses.module.css";
 
 export const Courses = () => {
   return (
-    <section className={styles.courses}>
+    <section className={styles.course_card}>
       {categoriesCourses.map((category) => (
         <CategoryCourses {...category} />
       ))}

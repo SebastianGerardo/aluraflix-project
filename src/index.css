@@ -13,6 +13,8 @@ body {
 }
 
 :root {
+  --padding-desktop-main: 0 6rem;
+  --padding-tablet-main: 0 1.5rem;
   --main-color: #262626;
   --blue-color: #2271D1;
   --blue-light-color: #6BD1FF;
