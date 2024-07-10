@@ -1,7 +1,7 @@
 .course_card_picture {
   display: block;
   width: 100%;
-  height: max-content;
+  max-height: 338px;
   overflow: hidden;
   border-radius: 15px 15px 0 0;
 }

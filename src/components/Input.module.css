@@ -12,3 +12,11 @@
   line-height: 24px;
   text-align: left;
 }
+
+.input_error_message {
+  border: 3px solid #e53935;
+}
+
+.input_error_message::placeholder {
+  color: #e53935;
+}

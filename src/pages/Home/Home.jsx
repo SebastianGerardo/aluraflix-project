@@ -1,19 +1,19 @@
-import { useState } from "react";
+import { useContext } from "react";
+// components
 import { Modal } from "../../components/Modal";
 import { Banner } from "./components/Banner";
 import { Courses } from "./components/Courses";
 import { EditCourse } from "./components/EditCourse";
+// context
+import { ContexApp } from "../../context/ContexApp";
 
 export const Home = () => {
-  const [isModalOpen, setModalOpen] = useState(false);
-
-  const openModal = () => setModalOpen(true);
-  const closeModal = () => setModalOpen(false);
+  const { isModalOpen, closeModal } = useContext(ContexApp);
 
   return (
     <section>
       <Banner />
-      <Courses openModal={openModal} />
+      <Courses />
       <Modal isOpen={isModalOpen} onClose={closeModal}>
         <EditCourse />
       </Modal>
