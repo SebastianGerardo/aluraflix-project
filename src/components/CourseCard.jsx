@@ -1,6 +1,6 @@
 import styles from "./CourseCard.module.css";
 
-export const CourseCard = ({ image, color, ...props }) => {
+export const CourseCard = ({ image, color, openModal, ...props }) => {
   return (
     <div className={styles.course_card}>
       <div
@@ -15,7 +15,7 @@ export const CourseCard = ({ image, color, ...props }) => {
       <ul
         style={{
           border: `5px solid ${color}`,
-          borderTop: "none"
+          borderTop: "none",
         }}
         className={styles.course_card_list}
       >
@@ -25,7 +25,7 @@ export const CourseCard = ({ image, color, ...props }) => {
             Borrar
           </div>
         </li>
-        <li>
+        <li onClick={() => openModal({ ...props, image })}>
           <div className={styles.course_card_option}>
             <img src="./edit.svg" alt="" />
             Editar

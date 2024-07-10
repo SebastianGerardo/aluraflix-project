@@ -4,6 +4,7 @@
 :root {
   --padding-desktop-main: 0 6rem;
   --padding-tablet-main: 0 1.5rem;
+  --background-modal: #03122F;
   --main-color: #262626;
   --blue-color: #2271d1;
   --blue-light-color: #6bd1ff;
