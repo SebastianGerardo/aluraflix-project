@@ -1,5 +1,5 @@
-import styles from "./Footer.module.css";
 import { ListNavigation } from "./ListNavigation";
+import styles from "./Footer.module.css";
 
 export const Footer = () => {
   return (
@@ -7,7 +7,9 @@ export const Footer = () => {
       <img src="./logo_footer.png" alt="logo" className={styles.logo_footer} />
 
       {/* MOBILE OPTIONS */}
-      <ListNavigation />
+      <span className={styles.elements_footer}>
+        <ListNavigation />
+      </span>
     </div>
   );
 };
